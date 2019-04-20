@@ -1,4 +1,4 @@
-# smartEcommerceAtacadista
+# Smart E-commerce Atacadista
 
 O Smart E-commerce Atacadista é um projeto de marketplace para automação comercial de vendas por atacado B2B desenvolvido dentro do Programa Institucional de Voluntariado de Iniciação em Desenvolvimento Tecnológico e Inovação no Instituto Federal do Espírito Santo.
 
