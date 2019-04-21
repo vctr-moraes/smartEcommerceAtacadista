@@ -39,3 +39,13 @@ Para organizar as informações utilizou-se um template que permitiu estruturar 
 </p>
 
 <h2>Documentação de requisitos utilizando linguagem natural</h2>
+
+Uma vez elaborado o diagrama de casos de uso foi possível decompor os cenários de uso e identificar diversas funcionalidades do sistema, as quais integram uma série de requisitos funcionais. Os requisitos funcionais originaram-se a partir das regras de negócio e foram declarados sob linguagem natural, estando estes, atrelados aos casos de uso no diagrama.
+
+A documentação dos requisitos funcionais segue um template de atributos tido como ideal para sua descrição. Este compõe informações entendidas como relevantes e adequadas à descrição dos requisitos do sistema. A seguir é apresentado o template utilizado na documentação dos requisitos funcionais.
+
+<p align="center">
+  <img  src="https://victoranalyst.files.wordpress.com/2018/12/template-para-requisitos-funcionais.png" style="max-width:100%;">
+</p>
+
+<h2>Criação dos Cenários de Uso</h2>
