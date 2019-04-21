@@ -29,3 +29,13 @@ Durante a elicitação de requisitos foi possível esboçar o primeiro modelo, o
 </p>
 
 <h2>Documentação das regras de negócio</h2>
+
+As regras de negócio capturadas possibilitaram realizar um projeto que atendesse a maioria das necessidades de digitalização dos processos de trabalho de distribuidoras e varejistas, considerando seu propósito acadêmico.
+
+Para organizar as informações utilizou-se um template que permitiu estruturar devidamente cada regra de negócio. Com o modelo adotado foi possível gerenciar cada regra de negócio ao longo de todo o ciclo de vida de desenvolvimento do sistema.
+
+<p align="center">
+  <img  src="https://victoranalyst.files.wordpress.com/2018/12/template-para-regras-de-negc3b3cio.png" style="max-width:100%;"> 
+</p>
+
+<h2>Documentação de requisitos utilizando linguagem natural</h2>
