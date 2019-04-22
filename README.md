@@ -49,3 +49,23 @@ A documentação dos requisitos funcionais segue um template de atributos tido c
 </p>
 
 <h2>Criação dos Cenários de Uso</h2>
+
+O diagrama de casos de uso foi construído integrando todos os cenários de uso, os quais compõem o software proposto, os atores com os quais interage, bem como os relacionamentos entre estes. Este conjunto de elementos da modelagem do diagrama de casos de uso possibilita conhecer o contexto do sistema.
+
+<p align="center">
+  <img  src="https://victoranalyst.files.wordpress.com/2018/05/usecase-diagram0.jpg?w=984" style="max-width:100%;">
+</p>
+
+O ator Distribuidora interage com cenários de uso referentes ao gerenciamento de produtos. Há um ‘CRUD’ para que ele possa manter seus produtos. Apenas há uma exceção para a operação de deleção – para que seja mantida a integridade dos dados, bem como, a necessidade de realização de consultas de históricos de vendas, os produtos não podem ser deletados. A solução adotada para um produto que não esteja mais disponível é mudar o seu status, assumindo o estado de inativo. A Distribuidora também gerencia o relacionamento que mantém com seus clientes, com os quais possui um vínculo a nível de sistema para que as transações comerciais possam acontecer. Ainda, ele pode gerenciar suas vendas, as quais podem assumir 3 diferentes estados: aguardando, cancelada ou atendida.
+
+O ator Varejista interage com cenários de uso, tais como, pesquisar produto. Para esta ação, é necessário que um varejista já possua um vínculo a nível de sistema com a Distribuidora. Isto é necessário para que o Varejista possa ter acesso ao catálogo de produtos da Distribuidora em questão, de modo a refletir o que se dá, de fato, na realidade. Este vínculo entre Varejista e Distribuidora se dá por meio do mecanismo de envio de solicitação comercial. Um Varejista faz a solicitação e esta aguarda pela resposta da Distribuidora, podendo assumir 3 estados distintos: aguardando, recusada ou aceita.
+
+A modelagem do sistema por meio da utilização de casos de uso utiliza duas técnicas para sua documentação. Inicialmente foi construído o diagrama. Este, documenta as funcionalidades do sistema sob o ponto de vista de sua utilização. No entanto, apenas o diagrama é insuficiente para o pleno conhecimento e entendimento dos cenários de uso do software, sendo necessária uma documentação complementar ao diagrama. Esta documentação é denominada especificação de casos de uso e leva em consideração propriedades essenciais, inerentes a cada caso de uso.
+
+Para a organização destas informações foi utilizado um template que compõe os detalhes dos casos de uso. Cada informação composta foi entendida como relevante e necessária ao bom detalhamento dos cenários. A seguir é apresentado o template utilizado para o preenchimento das informações.
+
+<p align="center">
+  <img  src="https://victoranalyst.files.wordpress.com/2018/12/especificac3a7c3a3o-de-caso-de-uso.png" style="max-width:100%;">
+</p>
+
+<h2>Modelagem Comportamental – diagrama de estados</h2>
