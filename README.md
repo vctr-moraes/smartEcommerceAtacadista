@@ -69,3 +69,15 @@ Para a organização destas informações foi utilizado um template que compõe 
 </p>
 
 <h2>Modelagem Comportamental – diagrama de estados</h2>
+
+Em uma atividade de modelagem bem elaborada e que envolva a utilização de certos diagramas da UML é possível conhecer as diversas perspectivas de um sistema em desenvolvimento. Isto porque os modelos possibilitam demonstrar graficamente, sob vários aspectos, aquilo que se pretende construir com linguagem de programação.
+
+O modelo é adotado em um projeto quando se faz necessário entender melhor como ocorrem os fluxos de controle entre estados assumidos por um objeto. O diagrama de estados pode basear-se em um caso de uso, mas também pode ser utilizado para acompanhar os estados de outros elementos, como, por exemplo, uma instância de uma classe.
+
+Este projeto adotou a utilização do diagrama de estados para obter um melhor entendimento do comportamento das instâncias da entidade Venda no que diz respeito aos estados que estas podem assumir. O diagrama integra o objeto participante da interação, bem como os demais elementos gráficos que compõem o modelo como pode ser observado a seguir.
+
+<p align="center">
+  <img  src="https://victoranalyst.files.wordpress.com/2018/12/diagrama-de-estados2.png" style="max-width:100%;">
+</p>
+
+<h2>Construção do Diagrama de Classes</h2>
