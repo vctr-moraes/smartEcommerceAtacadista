@@ -81,3 +81,11 @@ Este projeto adotou a utilização do diagrama de estados para obter um melhor e
 </p>
 
 <h2>Construção do Diagrama de Classes</h2>
+
+A elaboração do diagrama de classes teve como base o modelo de domínio anteriormente criado. Inicialmente foram modeladas as principais entidades constantes no domínio do problema; agora, são identificadas novas classes que fazem parte do diagrama completo que atenderá uma especificação mais detalhada na perspectiva estrutural. As novas classes inseridas ao diagrama são necessárias a representação dos objetos que farão parte do sistema de software.
+
+<p align="center">
+  <img src="https://victoranalyst.files.wordpress.com/2018/12/diagramadeclasses.jpg?w=984" style="max-width:100%;">
+</p>
+
+<h2>Modelagem de Dados</h2>
