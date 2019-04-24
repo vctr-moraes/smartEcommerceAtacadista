@@ -89,3 +89,17 @@ A elaboração do diagrama de classes teve como base o modelo de domínio anteri
 </p>
 
 <h2>Modelagem de Dados</h2>
+
+A modelagem de dados evolui paralelamente à modelagem dos processos compostos pelo sistema. Ambos partem de modelos mais conceituais até representações mais complexas, necessárias à construção do sistema.
+
+Uma vez tendo evoluído o modelo de domínio para o diagrama de classes da UML, foi possível ter o conhecimento da estrutura do software, a qual, em uma abordagem orientada a objetos, compõe as classes que representam os objetos comuns do mundo real pertencentes ao domínio do problema.
+
+O início das atividades de modelagem se deu por meio do mapeamento objeto-relacional, no qual as classes do sistema representam as tabelas de armazenamento de dados. Não há necessariamente uma transformação direta de classes para tabelas do banco de dados, nem mesmo uma correspondência exata entre ambas; isto apenas ocorrerá para as classes que manipulam dados e serem armazenados pela aplicação. Desta forma, foi elaborado o diagrama entidade-relacionamento que trata-se de uma representação diagramática que ilustra os dados criados, armazenados e utilizados pelo software.
+
+A elaboração do modelo lógico do banco de dados tem sua evolução a partir do modelo conceitual. Nesta etapa o conjunto de entidades anteriormente identificadas ganharam o conceito de tabelas e foram adaptadas para representar a forma na qual os dados estarão armazenados no banco de dados. O diagrama contém tabelas que armazenarão todos os dados relevantes ao domínio do problema e necessários ao funcionamento do software. O modelo lógico do banco de dados é apresentado a seguir.
+
+<p align="center">
+  <img src="https://victoranalyst.files.wordpress.com/2018/12/entitydesignerdiagramoficial.png?w=984" style="max-width:100%;">
+</p>
+
+<h2>Especificação do Sistema</h2>
