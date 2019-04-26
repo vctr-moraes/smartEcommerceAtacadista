@@ -103,3 +103,30 @@ A elaboração do modelo lógico do banco de dados tem sua evolução a partir d
 </p>
 
 <h2>Especificação do Sistema</h2>
+
+O produto da atividade de especificação de sistema é o Documento de Especificação do Sistema. Este artefato compreende as informações técnicas que satisfarão as necessidades do negócio por meio da construção do novo software. Ele contém especificações que foram estabelecidas para que a fase de Implementação proceda conforme o planejado. Este documento pode conter maior ou menor nível de formalidade e detalhamento, a depender da necessidade do projeto em questão ou da forma com a equipe de profissionais trabalha. É comum este tipo de atividade ser ignorada pela equipe, no entanto, é indispensável o mínimo de um conjunto de artefatos de software que viabilizem o início das atividades de programação do sistema, são eles:
+<ul>
+  <li>Design de arquitetura</li>
+  <li>Especificação de hardware e software</li>
+  <li>Design de interface</li>
+  <li>Design de armazenamento de dados</li>
+  <li>Modelo físico de dados</li>
+</ul>
+
+Deste modo, a fase de Projeto cumpre sua parte e dá condições para que a programação do software seja iniciada.
+
+<h2>Design de Arquitetura</h2>
+
+O design de arquitetura é resultado da análise dos requisitos não-funcionais, os quais dão origem à arquitetura do sistema e às especificações de hardware e de software. Seu objetivo é estabelecer a forma com que os recursos de hardware sustentarão a implementação dos componentes de software do sistema. Para tanto, realiza-se uma análise arquitetural que pode ser vista como uma especialização da análise de requisitos, com foco nos requisitos que influenciam a arquitetura.
+
+Todo projeto de arquitetura de software deve levar em consideração quatro funções fundamentais de um sistema, são elas:
+<ul>
+  <li>Armazenamento de dados</li>
+  <li>Lógica de acesso aos dados</li>
+  <li>Lógica de aplicação</li>
+  <li>Lógica de apresentação</li>
+</ul>
+
+Para este projeto foi adotada a arquitetura cliente-servidor. Esta arquitetura é a mais utilizada por aplicações Web e viabiliza o acesso ao sistema, bem como aos recursos computacionais para usuários conectados à Internet.
+
+<h2>Requisitos Não-funcionais</h2>
