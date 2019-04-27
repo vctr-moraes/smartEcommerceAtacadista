@@ -130,3 +130,37 @@ Todo projeto de arquitetura de software deve levar em consideração quatro fun�
 Para este projeto foi adotada a arquitetura cliente-servidor. Esta arquitetura é a mais utilizada por aplicações Web e viabiliza o acesso ao sistema, bem como aos recursos computacionais para usuários conectados à Internet.
 
 <h2>Requisitos Não-funcionais</h2>
+
+Requisitos não-funcionais são requisitos de software; inerentes ao software. Na fase de Projeto os requisitos não-funcionais são a entrada para a criação do projeto de arquitetura. Requisitos não-funcionais agregam informações de suma importância ao desenvolvimento do software e dizem respeito às restrições impostas a este. Geralmente são em menor número que requisitos funcionais, mas têm maior abrangência no sistema e estão relacionados a diversos aspectos deste. São várias as categorias de requisitos e suas atribuições.
+
+Para este projeto foram abordadas as categorias de requisitos de desempenho, requisitos de segurança, requisitos operacionais e requisitos culturais e políticos e suas respectivas subcategorias conforme a seguir:
+<ul>
+  <li>Requisito de desempenho</li>
+       &nbsp &nbsp &nbsp - Requisito de velocidade
+  <li>Requisitos de segurança</li>
+       &nbsp &nbsp &nbsp - Requisitos de controle de acesso
+  <li>Requisitos operacionais</li>
+       &nbsp &nbsp &nbsp - Requisitos do ambiente técnico<br>
+       &nbsp &nbsp &nbsp - Requisitos de manutenção<br>
+       &nbsp &nbsp &nbsp - Requisitos de portabilidade<br>
+  <li>Requisitos culturais e políticos</li>
+       &nbsp &nbsp &nbsp - Requisitos multilíngues
+</ul>
+
+Para a organização dos requisitos não-funcionais foi utilizado um template que contém os atributos necessários à sua descrição.
+
+<p align="center">
+  <img src="https://victoranalyst.files.wordpress.com/2018/12/template-para-requisitos-nc3a3o-funcionais.png" style="max-width:100%;">
+</p>
+
+<h2>Especificação de Hardware e Software</h2>
+
+A especificação de hardware e software se dá por meio da seleção de um conjunto de recursos de tecnologia que darão suporte à utilização do sistema. A configuração a ser obtida deve vir de encontro às necessidades do projeto, ou mais especificamente, deve ser compatível e viável para com os detalhes de implementação especificados.
+
+A especificação dos recursos computacionais relaciona uma configuração básica e suficiente ao desenvolvimento do sistema e não considerou, neste momento, a implantação do software em um servidor na Web. O resultado da especificação de hardware e software é apresentado a seguir.
+
+<p align="center">
+  <img src="https://victoranalyst.files.wordpress.com/2018/12/especificac3a7c3a3o-de-hardware-e-software.png" style="max-width:100%;">
+</p>
+
+<h2>Design da Interface com o Usuário</h2>
