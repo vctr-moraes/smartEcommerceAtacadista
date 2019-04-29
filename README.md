@@ -164,3 +164,76 @@ A especificação dos recursos computacionais relaciona uma configuração bási
 </p>
 
 <h2>Design da Interface com o Usuário</h2>
+
+té este momento, tudo o que foi projetado faz parte do funcionamento interno do sistema, e está oculto ao usuário – trata-se do desenvolvimento do back-end do software. Essas estruturas fazem a maior parte do trabalho da aplicação; isto, considerando a arquitetura cliente-servidor adotada. Como apresentado anteriormente, um sistema é comumente dividido em quatro funções principais: armazenamento de dados, lógica de acesso a dados, lógica de aplicação e lógica de apresentação, esta última sendo atribuída à construção do design de interface com o usuário.
+
+A construção da interface gráfica com o usuário deve prover três propriedades fundamentais:
+<ul>
+  <li>Mecanismo de navegação</li>
+  <li>Mecanismo de entrada</li>
+  <li>Mecanismo de saída</li>
+</ul>
+
+Esses mecanismos são as principais vias de tráfego de informações que entram e saem do sistema, bem como recebem os comandos do usuário. Elas permitem que o usuário interaja com as funcionalidades implementadas à aplicação do lado do servidor.
+
+Há uma vasta gama de ferramentas e tecnologias utilizadas na construção de interfaces gráficas. O projeto Smart E-commerce Atacadista, como um projeto de sistema Web, faz uso de tecnologias modernas e amplamente utilizadas na programação front-end. Elas foram escolhidas seguindo tendências de mercado, adequação ao tipo de projeto, resultado da análise de viabilidade técnica e domínio acadêmico por parte do autor. A seguir são listadas as tecnologias utilizadas na construção da interface gráfica com o usuário:
+<ul>
+  <li>ASP.NET</li>
+  <li>Razor</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>Bootstrap</li>
+</ul>
+
+Um projeto de interface gráfica que atenda adequadamente às necessidades de interação do usuário com o sistema não deve ser elaborado com base em soluções empíricas. Isto porque há uma série de diretrizes e boas práticas que devem guiar o desenvolvimento desta tarefa. O conjunto de atividades e conceitos relacionados ao projeto de interface com o usuário faz parte dos estudos da interação humano-computador.
+
+<h2>Interface Humano-computador</h2>
+
+Projetar uma interface gráfica para um sistema computacional envolve seguir princípios que resultam em maior eficácia na interação com o usuário:
+<ul>
+  <li>Familiaridade para o usuário</li>
+  <li>Consistência da interface</li>
+  <li>Mínimo de surpresa</li>
+  <li>Facilidade de recuperar-se</li>
+  <li>Guia do usuário</li>
+  <li>Diversidade de usuários</li>
+</ul>
+
+Com base nestes princípios, obteve-se uma direção para a elaboração da interface gráfica que atendesse adequadamente às necessidades envolvidas no projeto. Eles orientaram na elaboração do layout, obedecendo as propriedades fundamentais de interface gráfica.
+
+<h2>User Interface – UI</h2>
+
+A interface gráfica é o elemento que torna transparente ao usuário todo o complexo funcionamento do software e o possibilita utilizar de forma intuitiva e amigável. Utiliza-se, basicamente, de elementos de interação criados a partir da programação em linguagem de marcação, tipicamente o HTML. Para alcançar este objetivo, alguns princípios de design foram observados:
+<ul>
+  <li>Layout</li>
+  <li>Conhecimento do conteúdo</li>
+  <li>Experiência do usuário</li>
+  <li>Consistência</li>
+  <li>Minimização do esforço do usuário</li>
+</ul>
+
+Shneiderman apresenta um processo de cinco etapas para a elaboração da interface gráfica do utilizador, são elas:
+<ul>  
+  <li>Desenvolvimento dos cenários de uso</li>
+  <li>Desenvolvimento do diagrama de estrutura de interface</li>
+  <li>Desenvolvimento dos padrões de interface</li>
+  <li>Prototipação do design de interface</li>
+  <li>Avaliação da interface gráfica proposta</li>
+</ul>
+
+Para este projeto foram adotadas as etapas de desenvolvimento do diagrama de estruturas de interface e prototipação de interface.
+
+O diagrama de estrutura de interface é um recurso muito útil para uma representação visual simplificada das interfaces que compõem o sistema, bem como as ligações que existem entre elas. Para auxiliar na elaboração do modelo, utiliza-se o diagrama de fluxo de dados e os cenários de uso. Estes dois artefatos anteriormente produzidos dão suporte à construção do diagrama de estrutura de interface. Para este projeto foram utilizados apenas os cenários de uso. O diagrama elaborado é apresentado a seguir.
+
+<p align="center">
+  <img src="https://victoranalyst.files.wordpress.com/2018/12/diagrama-de-estrutura-de-interface.png?w=984" style="max-width:100%;">
+</p>
+
+A segunda atividade realizada no projeto da interface gráfica foi a elaboração de protótipos de design. Estes foram criados utilizando wireframes que possibilitaram criar um layout sugestivo à apresentação do conteúdo na tela do computador. Para isto, foi utilizada a ferramenta de software Balsamiq na versão Web App. A seguir é apresentado um wireframe que representa a página para a compra de um produto.
+
+<p align="center">
+  <img src="https://victoranalyst.files.wordpress.com/2018/12/24-informac3a7c3b5es-de-um-produto-para-compra.png?w=984" style="max-width:100%;">
+</p>
+
+<h2>Design de Armazenamento de Dados</h2>
