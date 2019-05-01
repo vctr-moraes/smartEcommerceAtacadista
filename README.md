@@ -237,3 +237,39 @@ A segunda atividade realizada no projeto da interface gráfica foi a elaboraçã
 </p>
 
 <h2>Design de Armazenamento de Dados</h2>
+
+A criação do modelo físico de dados é a última das 3 etapas da modelagem de dados. A atividade consiste em escrever scripts utilizando a linguagem SQL, a partir das especificações presentes no modelo lógico. Esses códigos em SQL posteriormente serão interpretados por um sistema gerenciador de banco de dados previamente escolhido. Assim que o SGBD executa os scripts, surge um novo banco de dados, e então existirá, de fato, um local estabelecido que já poderá armazenar dados de uma aplicação. Para tanto, foi escolhido o formato de armazenamento que atendesse mais adequadamente as necessidades da aplicação. Foi selecionado o formato de banco de dados do tipo relacional, levando-se em consideração os seguintes aspectos:
+<ul>
+  <li>Tipos de dados</li>
+  <li>Tipo de sistema de aplicação</li>
+  <li>Formatos de armazenamento existentes</li>
+  <li>Necessidades futuras</li>
+</ul>
+
+O sistema gerenciador de banco de dados adotado foi o Microsoft SQL Server 2017 edição Developer. Obtido o script SQL conforme especificado no modelo lógico, executou-se o código utilizando o ambiente integrado de gerenciamento, SQL Server Management Studio na versão 17.7. Após este procedimento obteve-se, então, a estrutura de banco de dados para o sistema.
+
+<h2>Implementação – Construção do Sistema</h2>
+
+A atividade de construção/programação do sistema iniciou-se a partir da base de dados já implementada, em um processo de engenharia reversa com o uso do ADO.NET Entity Framework, adotando uma técnica de implementação denominada database first.
+
+Na técnica database first o modelo de dados é copiado para um arquivo dentro do IDE, podendo ser manipulado pelo desenvolvedor. Uma vez importado para o IDE, é possível executar a técnica de mapeamento objeto-relacional, na qual as tabelas do banco de dados dão origem a classes em uma abordagem orientada a objeto. Esta técnica permite uma correspondência entre tabelas e classes, onde cada registro em uma tabela representa uma instância na classe que a corresponde. Deste modo, construiu-se a parte inicial da aplicação, em um padrão de arquitetura em camadas, adotando o modelo Model-View-Controller, onde estabeleceu-se a conexão entre aplicação e o banco de dados.
+
+A programação do software foi realiza no Visual Studio edição 2017. Este ambiente de desenvolvimento integra a .NET Framework. Com ela, foi utilizado o ASP.NET, um conjunto de bibliotecas e ferramentas para o desenvolvimento de aplicações baseadas na Web que engloba as diferentes partes da Web para dar aos desenvolvedores de sites da Web mais poder. Para o desenvolvimento deste projeto, foram utilizadas as seguintes linguagens:
+<ul>
+  <li>C#</li>
+  <li>Razor</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>SQL</li>
+</ul>
+
+O processo de implementação evoluiu atendendo aos requisitos funcionais. Cada requisito era abordado ou parcialmente abordado à medida em que se obtinha o entendimento de como implementá-lo.
+
+<h2>Implementação de Testes</h2>
+
+Neste projeto de software, para o qual foi adotado um ciclo de vida de desenvolvimento de sistema com quatro fases, as atividades de testes foram incorporadas à fase de implementação.
+
+Um processo de implementação de testes se divide em quatro estágios distintos e sequenciais, e cada um compreende diferentes tipos de teste e seus objetivos, são ele.
+
+Este projeto adotou as técnicas de testes da interface com o usuário; testes de requisitos e testes de usabilidade. Cada teste teve maior ou menor participação, de acordo com a evolução da implementação do software.
