@@ -273,3 +273,6 @@ Neste projeto de software, para o qual foi adotado um ciclo de vida de desenvolv
 Um processo de implementação de testes se divide em quatro estágios distintos e sequenciais, e cada um compreende diferentes tipos de teste e seus objetivos, são ele.
 
 Este projeto adotou as técnicas de testes da interface com o usuário; testes de requisitos e testes de usabilidade. Cada teste teve maior ou menor participação, de acordo com a evolução da implementação do software.
+
+
+<p align="center"> – – – – – – </p>
